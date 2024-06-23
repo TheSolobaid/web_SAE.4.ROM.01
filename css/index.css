@@ -1,0 +1,59 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, button, img, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply some basic styles to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cbdbfc;
+    color: #333;
+    text-align: center;
+}
+
+/* Style the header */
+h1 {
+    color: #007bff; /* Blue color */
+    margin: 20px 0;
+}
+
+/* Style the subheader */
+h2 {
+    color: #555;
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from the button when wrapped in a link */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Apply styles to the link */
+a {
+    text-decoration: none;
+}
+
+/* Apply styles to the link on hover */
+a:hover {
+    text-decoration: underline;
+}
